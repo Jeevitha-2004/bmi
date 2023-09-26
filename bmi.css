@@ -1,0 +1,36 @@
+body{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #bf6bbe, #3d8ec7);
+}
+span{
+    color: red;
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    padding: 15px;
+    width: 35%;
+    background: rgb(36, 35, 35);
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+p{
+    padding-left: 85px;
+}
+input{
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+button{
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    background: rgb(54, 53, 53);
+    display: block;
+    margin-top: 10%;
+    cursor: pointer;
+}
